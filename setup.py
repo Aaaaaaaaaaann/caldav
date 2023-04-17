@@ -80,7 +80,7 @@ if __name__ == "__main__":
         include_package_data=True,
         zip_safe=False,
         install_requires=[
-            "vobject",
+            "vobject @ git+https://github.com/Aaaaaaaaaaann/vobject",
             "lxml",
             "requests",
             "icalendar",
